@@ -4,31 +4,50 @@ header {
     padding: 10px;
 }
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 3px;
     background-color: #f1f1f1;
-    color: white;
+    color: black;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
-ul li {
-    float: left;
-}
-
-ul li a {
+li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: black;
+    padding: 8px 16px;
     text-decoration: none;
 }
-
-ul li a:hover {
-    background-color: #111111;
+li a:hover {
+    background-color: #555555;
+    color: white;
+}
+div.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 210px;
+}
+div.flex-container > div{
+    margin: 10px;
+    flex: 1px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media screen and (max-width: 600px){
+    div.flex-container {
+        flex-direction: column;
+    }
+}
+img{
+    width: 200px;
 }
