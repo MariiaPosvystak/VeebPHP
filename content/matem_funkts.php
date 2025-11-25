@@ -6,15 +6,18 @@ function clearVarsExcept($url, $num){
     }
     return strtok($url, '?') . "?$num=" . ($_REQUEST[$num]);
 }
+echo "<div class='uuscontainer'>";
+echo "<div>";
 echo "<h2>Matemaatilised tehted</h2>";
 $arv1 = 4.32;
 $arv2 = 7.24;
-
 echo "Esimene arv on $arv1, teine arv on $arv2 <br>";
 echo "+ Liitmise tulemus: ".($arv1 + $arv2)."<br>";
 echo "- Lahutamise tulemus: ".($arv1 - $arv2)."<br>";
 echo "* Korrutise tulemus: ".($arv1 * $arv2)."<br>";
 echo "/ Jagatise tulemus: ".($arv1 / $arv2)."<br>";
+echo "</div>";
+echo "<div>";
 echo "<h3>Matemaatilised funktsioonid</h3>";
 echo "<br>Väiksem arv: ";
 echo min($arv1, $arv2);
@@ -36,7 +39,8 @@ echo "<br>sqrt(arv) - Ruutjuur: ";
 echo sqrt($arv1);
 echo "<br>pi() - Pi arv: ";
 echo pi();
-
+echo "</div>";
+echo "<div>";
 echo "<h2>Omistamise operaatorid</h2><br>";
 $x = 10;
 $y = 20;
@@ -62,6 +66,8 @@ echo "<br>";
 $format = 'Tere, %s %s, arv x: %d';
 printf($format, $perenimi, $nimi, $x);
 echo "<br><br>";
+echo "</div>";
+echo "<div>";
 echo "<h2>Arv mõistatus, arva  ära 2 arvu(1-50)</h2><br>";
 $num1 = 9;
 $num2 = 33;
@@ -76,11 +82,12 @@ $num2 --;
 echo "<li>"." Juhuslik number, mis asub nende vahel on ".rand($num1, $num2).".";
 $jarg = $num2 / $num1;
 echo "<li>"." Nende arvude jagamisel on tulemus ligikaudu ".round($jarg);
+echo "</li></ol>";
 echo "<br><br>";
 ?>
     <form name="numkontroll" action="<?=clearVarsExcept($_SERVER['REQUEST_URI'], "link")?>" method="post">
         <label for="num1">Sisesta esimene number: </label>
-        <input type="number" id="num1" name="num1" min="1" max="50">
+        <input type="number" id="num1" name="num1" min="1" max="50"><br>
         <label for="num2">Sisesta teine number: </label>
         <input type="number" id="num2" name="num2" min="1" max="50"><br>
         <input type="submit" value="Kontrolli">
@@ -106,4 +113,6 @@ if (isset($_REQUEST['num2'])) {
         echo "Teine number: ".$num2 . " on vale!";
     }
 }
+echo "</div>";
+echo "</div>";
 ?>
