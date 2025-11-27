@@ -1,5 +1,5 @@
 <?php require("p3is.php"); ?>
-<h2>Anekdoot 1</h2>
+<h2>Jäädud lõplikult kinni</h2>
 <div class="anekdoot">
     <div class="anekdoot-tekst">
         Kontoris ütleb ülem oma alluvale:<br>

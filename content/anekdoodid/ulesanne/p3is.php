@@ -12,12 +12,13 @@ maximum-scale=1.0;">
 <div id="header">
     <div class="nav">
         <ul>
-            <li><a href="anekdoot_1.php">Anekdoot 1</a></li>
-            <li><a href="anekdoot_2.php">Anekdoot 2</a></li>
-            <li><a href="anekdoot_3.php">Anekdoot 3</a></li>
-            <li><a href="anekdoot_4.php">Anekdoot 4</a></li>
-            <li><a href="anekdoot_5.php">Anekdoot 5</a></li>
+            <li><a href="anekdoot_1.php">Jäädud lõplikult kinni</a></li>
+            <li><a href="anekdoot_2.php">Jooksmine bussile</a></li>
+            <li><a href="anekdoot_3.php">Unistus veest</a></li>
+            <li><a href="anekdoot_4.php">Rahu ja maailm</a></li>
+            <li><a href="anekdoot_5.php">Teadmine või oskus</a></li>
         </ul>
     </div>
 </div>
-<div class="clear"></div>
+<div class="clear">
+</div>

@@ -1,5 +1,5 @@
 <?php require("p3is.php"); ?>
-<h2>Anekdoot 1</h2>
+<h2>Teadmine või oskus</h2>
 <div class="anekdoot">
     <div class="anekdoot-tekst">
         Ivan Petrovitš, vanaisa teadlane, ütles sageli:<br>

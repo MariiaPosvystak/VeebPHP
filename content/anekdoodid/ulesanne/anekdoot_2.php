@@ -1,5 +1,5 @@
 <?php require("p3is.php"); ?>
-<h2>Anekdoot 2</h2>
+<h2>Jooksmine bussile</h2>
 <div class="anekdoot">
     <div class="anekdoot-tekst">
         Kohtusid kaks sõpra, üks ütleb:<br>
