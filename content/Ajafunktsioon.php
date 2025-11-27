@@ -1,4 +1,5 @@
-<div id="aeg1">
+<div class='uuscontainer'>
+<div>
 <?php
 echo "<h2>Ajafunktsioonid</h2>";
 //timezone, juhul kui timezone ei ole määratud, siis php näitab local
@@ -12,7 +13,7 @@ echo "date('d.m.Y H:i:s', time())";
 echo "<br>";
 ?>
 </div>
-<div id="aeg2">
+<div>
 <?php
 echo "<pre> 
 d - päev 01...31
@@ -24,7 +25,7 @@ s - sekundid 0...59";
 echo "</pre>";
 ?>
 </div>
-<div id="aeg3">
+<div>
 <?php
 echo "<strong>Tehted kuupäevaga</strong>";
 echo "<br>";
@@ -36,7 +37,7 @@ echo "+1 päev=time()+60*60*24 ".date("d.m.Y G:i:s", time()+60*60*24);
 echo "<br>";
 ?>
 </div>
-<div id="aeg4">
+<div>
 <?php
 echo "<strong> Kuupäeva genireerimine</strong>";
 echo "<br>";
@@ -46,7 +47,7 @@ echo "<br><strong>Minu sünipäev:</strong> ".date("d.m.Y G:i:s", $synd);
 echo "<br>";
 ?>
 </div>
-<div id="aeg5">
+<div>
 <?php
 echo "Massiivi abil näidata kuu nimega";
 echo "<br>";
@@ -56,4 +57,5 @@ $paev=date("d");
 $kuu=$kuud[date("m")];
 echo $paev.". ".$kuu." ".$aasta." a.";
 ?>
+</div>
 </div>

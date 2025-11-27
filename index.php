@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/muusikaKysitlus.css">
     <link rel="stylesheet" href="style/ValuutKalkulaator.css">
-    <link rel="stylesheet" href="style/Ajafunktsioon.css">
     <script src="JS/muusikaKysitlus.js"></script>
     <script src="JS/Randompilt.js"></script>
     <script src="JS/ValuutKalkulaator.js"></script>
