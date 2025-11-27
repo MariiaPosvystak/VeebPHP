@@ -10,8 +10,5 @@
     <li>Ajalugu</li>
     <li>Laulmine</li>
 </ol>
-<?php
-require("teade.txt");
-?>
 </body>
 </html>
