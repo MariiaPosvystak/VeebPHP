@@ -13,6 +13,20 @@ footer {
     background-color: #f1f1f1;
     color: black;
 }
+nav ul li .dropdown {
+    display: block;
+    position: absolute;
+    opacity: 0;
+
+    background: #ccc;
+
+    transition: all 0.3s ease;
+}
+nav ul li:hover >ul {
+    top: 206px;
+    left: 0;
+    opacity: 1;
+}
 ul {
     list-style-type: none;
     margin: 0;
