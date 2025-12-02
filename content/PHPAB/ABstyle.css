@@ -1,0 +1,52 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+}
+input[type=text], input[type=date], input[type=color], input[type=submit] textarea {
+    width: 90%;
+    padding: 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+div#menyy{
+    display: inline-block;
+    border: 3px solid  black;
+    width: 40%;
+    border-radius: 80px;
+    padding: 2%;
+}
+div#sisu{
+    display: inline-block;
+    border: 3px solid  black;
+    width: 40%;
+    border-radius: 60px;
+    padding: 2%;
+}
+div#menyy a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+}
+div#menyy a:hover{
+    background-color: lightgray;
+    border-radius: 8px;
+}
+div#link a{
+    text-decoration: none;
+    background: darkgrey;
+    color: black;
+    font-size: 20px;
+}
+div#link{
+    padding: 2%;
+    text-align: center;
+    width: 90%;
+}
+h1{
+    text-align: center;
+}
+table a{
+
+}
